@@ -2,8 +2,10 @@
 
 This project consists of a **frontend** built with TypeScrit, React and Vite, and a **backend** using TypeScript and Express.
 
+## Make sure you have installed at least **Node v21.7**
 
 ## Getting Started
+
 
 ### 1️⃣ Clone the Repository
 ```sh
