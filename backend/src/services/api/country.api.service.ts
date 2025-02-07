@@ -1,10 +1,11 @@
 import { AvailableCountries, FlagImageUrl, Population, AllCountriesPopulation, FlagImageUrls, Border, Borders } from "~/types/types"
 import { load } from "../http/load"
 import { firstLetterUpperCase } from "./helpers/uppercase.helper";
+import { config } from "~/config/config";
 
 class CountryAPI {
-  private baseNagerUrl = "https://date.nager.at/api/v3";
-  private baseCountriesNowUrl = "https://countriesnow.space/api/v0.1/countries";
+  private baseNagerUrl = config.baseNagerUrl;
+  private baseCountriesNowUrl = config.baseCountriesNowUrl;
 
   public getAvailableCountriesList = async (): Promise<AvailableCountries> => {
     return await load(`${this.baseNagerUrl}/AvailableCountries`)
