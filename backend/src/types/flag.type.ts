@@ -7,4 +7,4 @@ type FlagImageUrl = {
   flag: string
 }
 
-export { FlagImageUrls, FlagImageUrl }
+export { type FlagImageUrls, type FlagImageUrl }

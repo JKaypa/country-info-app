@@ -12,4 +12,4 @@ type Population = {
 
 
 
-export type { AllCountriesPopulation, Population }
+export { type AllCountriesPopulation, type Population }

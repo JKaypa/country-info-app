@@ -7,4 +7,4 @@ type Border = {
   countryCode: string
 }
 
-export { Borders, Border }
+export { type Borders, type Border }

@@ -3,4 +3,4 @@ type AvailableCountries = {
   name: string
 }[]
 
-export { AvailableCountries }
+export { type AvailableCountries }
