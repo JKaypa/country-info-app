@@ -1,0 +1,12 @@
+.countryList {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;  
+}
+
+.countryList__title{
+  margin-bottom: 20px;
+  text-align: center;
+}
